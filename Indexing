@@ -1,0 +1,12 @@
+
+Remove water Mark 
+```
+Index-\d+\n© SANS Institute 2022\n[a-f0-9]{32}\n\S+@\S+\n\d+\n\w+\s\w+\n\w+ Licensed To: \w+\s\w+\s<\S+@\S+> \w{3} \d{2}, \d{4}\nlive\nLicensed To: \w+\s\w+\s<\S+@\S+> \w{3} \d{2}, \d{4}
+```
+
+format strings with TITLE;Page number
+```
+([a-zA-Z)])\s(\d)
+Replace: $1;$2
+``
+
